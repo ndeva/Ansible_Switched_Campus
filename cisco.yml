@@ -1,6 +1,6 @@
 ---
-- hosts: switches
-  become: yes
+hosts: switches
+become: yes
 
 
   tasks:
@@ -10,4 +10,3 @@
           - name: Loopback1
             description: Created Loopback
             enabled: true
-    
